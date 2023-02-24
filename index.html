@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Invitados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <h3>Lista de invitados a mi fiesta</h3>
+        <div>
+            <span>Invitado Especial 1</span>
+            <input type="text"placeholder="nombre invitado"id="invitado1">
+            <br>
+            <span>Invitado Especial 2</span>
+            <input type="text"placeholder="nombre invitado"id="invitado2">
+            <br><span>Invitado Especial 3</span>
+            <input type="text"placeholder="nombre invitado"id="invitado3">
+            <br><span>Invitado Especial 4</span>
+            <input type="text"placeholder="nombre invitado"id="invitado4">
+            <br><span>Invitado Especial 5</span>
+            <input type="text"placeholder="nombre invitado"id="invitado5">
+            <br>
+        </div>
+        <br>
+
+        <button onclick="enviar()" id="boton_enviar">Enviar</button>
+        <br>
+        <div id="ver_nombre"></div>
+        <br>
+        <button onclick="ordenar()"id="boton_ordenar">Ordenar</button>
+    </center>
+</body>
+</html>

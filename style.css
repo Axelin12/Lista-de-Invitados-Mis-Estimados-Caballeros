@@ -1,0 +1,17 @@
+body{
+    background-color: greenyellow;
+    font-family: 'Tilt Prism', cursive;
+}
+#boton_enviar{
+    background-color: aqua;
+    font-size: 15px;
+}
+#boton_ordenar{
+    display: none;
+    background-color:#5dff6d;
+    font-size: 15px;
+}
+#ver_nombre{
+    font-family: 'Tilt Prism', cursive;
+
+}
